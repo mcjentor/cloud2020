@@ -1,0 +1,19 @@
+server:
+  port: 8001
+spring:
+  application:
+    cloud-provider-user8001
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud2020?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.trueox.springcloud.vo
+
+logging:
+  config: classpath:log4j2-spring.xml
+
+
