@@ -23,7 +23,7 @@ public class PaymentController {
         {
             return new CommonResult(200,"数据插入成功",result);
         }else {
-            return new CommonResult(200,"数据插入失败",result);
+            return new CommonResult(400,"数据插入失败",result);
         }
 
     }
@@ -35,9 +35,9 @@ public class PaymentController {
         log.info("成功查询数据:" + payment);
         if(payment !=null)
         {
-            return new CommonResult(200,"成功找到相应数据记录",payment);
+            return new CommonResult(200,"成功找到相应数据记录，查询编号为"+id,payment);
         }else {
-            return new CommonResult(200,"查无数据",payment);
+            return new CommonResult(200,"查无数据,查询编号为"+id,payment);
         }
 
     }
