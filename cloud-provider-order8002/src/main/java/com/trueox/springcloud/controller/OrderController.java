@@ -1,7 +1,8 @@
 package com.trueox.springcloud.controller;
 
-import com.trueox.springcloud.vo.CommonResult;
-import com.trueox.springcloud.vo.Payment;
+
+import com.trueox.springcloud.pojo.CommonResult;
+import com.trueox.springcloud.pojo.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

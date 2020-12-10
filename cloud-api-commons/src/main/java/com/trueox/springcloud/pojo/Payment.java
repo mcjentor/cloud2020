@@ -1,4 +1,5 @@
-package com.trueox.springcloud.vo;
+package com.trueox.springcloud.pojo;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

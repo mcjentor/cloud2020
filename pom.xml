@@ -10,6 +10,7 @@
     <modules>
         <module>cloud-provider-user8001</module>
         <module>cloud-provider-order8002</module>
+        <module>cloud-api-commons</module>
     </modules>
     <packaging>pom</packaging>
 
